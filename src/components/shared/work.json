@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_works",
+  "info": {
+    "displayName": "work"
+  },
+  "options": {},
+  "attributes": {
+    "days": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "string"
+    }
+  }
+}

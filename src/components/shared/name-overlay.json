@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_name_overlays",
+  "info": {
+    "displayName": "nameOverlay"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

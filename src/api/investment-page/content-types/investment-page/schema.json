@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "investment_pages",
+  "info": {
+    "singularName": "investment-page",
+    "pluralName": "investment-pages",
+    "displayName": "Investment Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero-section"
+    },
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.section-steps-with-background",
+        "shared.section-steps",
+        "shared.section-text-left-image-right",
+        "shared.section-text-right-image-left",
+        "shared.section-yellow-background",
+        "shared.section-with-properties"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

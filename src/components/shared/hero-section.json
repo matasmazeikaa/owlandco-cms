@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.step"
+    }
+  }
+}

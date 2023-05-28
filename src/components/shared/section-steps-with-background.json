@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_section_steps_with_backgrounds",
+  "info": {
+    "displayName": "SectionStepsWithBackground",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "step": {
+      "displayName": "step",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.step"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

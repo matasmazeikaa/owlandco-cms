@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonial_sections",
+  "info": {
+    "singularName": "testimonial-section",
+    "pluralName": "testimonial-sections",
+    "displayName": "Testimonial Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonials": {
+      "displayName": "testimonial",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_section_text_left_image_rights",
+  "info": {
+    "displayName": "SectionTextLeftImageRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "firstSubItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-subtitle"
+    },
+    "secondSubItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-subtitle"
+    },
+    "nameOverlay": {
+      "displayName": "nameOverlay",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.name-overlay"
+    }
+  }
+}

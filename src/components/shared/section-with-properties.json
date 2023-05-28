@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_section_with_properties",
+  "info": {
+    "displayName": "SectionWithProperties"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

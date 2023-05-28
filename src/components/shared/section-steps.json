@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_section_steps",
+  "info": {
+    "displayName": "SectionSteps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "arrowSeparators": {
+      "type": "boolean"
+    },
+    "verticalSeparators": {
+      "type": "boolean"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title-subtitle"
+    }
+  }
+}
